@@ -69,7 +69,7 @@ jobs:
 
         host:
           - name: ubuntu-latest
-            work_directory: /home/runner/work/action/action
+            work_directory: /home/runner/work/bsd-action/bsd-action
 
         exclude:
           - version: '12.2'
@@ -81,7 +81,7 @@ jobs:
             hostname: ''
             host:
               name: ubuntu-latest
-              work_directory: /home/runner/work/action/action
+              work_directory: /home/runner/work/bsd-action/bsd-action
 
           - version: '12.4'
             architecture:
@@ -90,7 +90,7 @@ jobs:
             hostname: 'runnervmg1sw1.local'
             host:
               name: ubuntu-latest
-              work_directory: /home/runner/work/action/action
+              work_directory: /home/runner/work/bsd-action/bsd-action
 
     steps:
       - name: Checkout
@@ -137,7 +137,7 @@ jobs:
 
         host:
           - name: ubuntu-latest
-            work_directory: /home/runner/work/action/action
+            work_directory: /home/runner/work/bsd-action/bsd-action
 
         exclude:
           - version: '6.8'
@@ -184,7 +184,7 @@ jobs:
 
         host:
           - name: ubuntu-latest
-            work_directory: /home/runner/work/action/action
+            work_directory: /home/runner/work/bsd-action/bsd-action
 
         exclude:
           # arm64 images exist only for 10.0 and newer.

@@ -66,7 +66,7 @@ export class DefaultVmFileSystemSynchronizer
       // prettier-ignore
       args: [
         this.rsyncFlags,
-        '--exclude', '_actions/cross-platform-actions/action',
+        '--exclude', '_actions/Anton-4/bsd-action',
         ...excludePaths.flatMap(p => ['--exclude', p]),
         toDirectoryPath(this.hostHomeDirectory),
         stripDirectoryPath(this.rsyncTarget)
